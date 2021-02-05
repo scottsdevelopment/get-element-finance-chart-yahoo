@@ -1,0 +1,5 @@
+.nyc_output/
+coverage/
+*.png
+.DS_Store
+node_modules/
