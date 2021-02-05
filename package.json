@@ -1,5 +1,5 @@
 {
-  "name": "yahoo-finance-get-current-ticker-graph",
+  "name": "get-element-finance-chart-yahoo",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -7,7 +7,11 @@
     "test": "mocha -r ts-node/register tests/**/*.spec.ts",
     "coverage": "nyc -r lcov -e .ts -x \"*.spec.ts\" --reporter=text-summary npm run test"
   },
-  "author": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/scottsdevelopment/get-element-finance-chart-yahoo.git"
+  },
+  "author": "Scott O'Dell",
   "license": "ISC",
   "dependencies": {
     "puppeteer": "^7.0.1"
